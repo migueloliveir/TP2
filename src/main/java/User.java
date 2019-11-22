@@ -4,7 +4,7 @@ public class User
     private String email;
     private String username;
     private String password;
-    private Address adress;
+    private Address address;
 
 
     public String getName() {
@@ -39,14 +39,14 @@ public class User
         this.password = password;
     }
 
-    public Address getAdress() {
-        return adress;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setAdress(Address adress) {
-        this.adress = adress;
+    public void setAddress(Address address) {
+        this.address = address;
     }
     public String getStreetName(){
-        return this.adress.getStreetName();
+        return this.address.getStreetName();
     }
 }
