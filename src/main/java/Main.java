@@ -22,12 +22,11 @@ public class Main {
         Product product5 = new Product();
         Product product6 = new Product();
         Product product7 = new Product();
-        Product product8 = new Product();
+
 
         Category category1 = new Category();
         Category category2 = new Category();
         Category category3 = new Category();
-        Category category4 = new Category();
 
 
         category1.setColor("Vermelho");
@@ -41,10 +40,6 @@ public class Main {
         category3.setColor("Amarelo");
         category3.setNome("Peixaria");
         category3.setDescription("Produtos de peixaria (ex: bacalhau, peixe espada)");
-
-        category4.setColor("Amaredlo");
-        category4.setNome("Peidxaria");
-        category4.setDescription("Produtos de peixaria (ex: bacdalhau, peixe espada)");
 
         product1.setCategory(category2);
         product1.setDescription("Fiambre da pa");
@@ -94,13 +89,6 @@ public class Main {
         product7.setPicture("picture");
         product7.setPrice(0.89);
         product7.setUnityType("kg");
-
-        product8.setCategory(category1);
-        product8.setDescription("Arroz Carolino");
-        product8.setName("Arroz Carolino (1kg)");
-        product8.setPicture("picture");
-        product8.setPrice(0.89);
-        product8.setUnityType("kg");
 
 
 
