@@ -47,6 +47,7 @@ public class Main {
         product1.setPicture("picture");
         product1.setPrice(1.12);
         product1.setUnityType("kg");
+        product1.setDesconto(10);
 
         product2.setCategory(category1);
         product2.setDescription("Azeite");
@@ -54,6 +55,8 @@ public class Main {
         product2.setPicture("picture");
         product2.setPrice(9.99);
         product2.setUnityType("ml");
+        product2.setDesconto(20);
+
 
         product3.setCategory(category3);
         product3.setDescription("Terra Do Bacalhau");
@@ -61,6 +64,8 @@ public class Main {
         product3.setPicture("picture");
         product3.setPrice(74.76);
         product3.setUnityType("kg");
+        product3.setDesconto(12);
+
 
         product4.setCategory(category2);
         product4.setDescription("Queijo Limiano");
@@ -68,6 +73,8 @@ public class Main {
         product4.setPicture("picture");
         product4.setPrice(6.99);
         product4.setUnityType("gr");
+        product4.setDesconto(15);
+
 
         product5.setCategory(category3);
         product5.setDescription("Peixe Espada Branco");
@@ -75,6 +82,8 @@ public class Main {
         product5.setPicture("picture");
         product5.setPrice(9.99);
         product5.setUnityType("kg");
+        product5.setDesconto(14);
+
 
         product6.setCategory(category2);
         product6.setDescription("Chourição");
@@ -82,6 +91,8 @@ public class Main {
         product6.setPicture("picture");
         product6.setPrice(12.79);
         product6.setUnityType("gr");
+        product6.setDesconto(50);
+
 
         product7.setCategory(category1);
         product7.setDescription("Arroz Carolino");
@@ -89,6 +100,8 @@ public class Main {
         product7.setPicture("picture");
         product7.setPrice(0.89);
         product7.setUnityType("kg");
+        product7.setDesconto(60);
+
 
 
 
@@ -158,5 +171,7 @@ public class Main {
         System.out.println("\nPercetegem completa:"+lista.GetPercentageCompleted());
         //Para 2o
         lista.para20();
+
+lista.getDesconto();
     }
 }

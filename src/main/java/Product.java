@@ -5,7 +5,7 @@ public class Product {
     private  Category category;
     private double price;
     private String unityType;
-
+    private  double desconto;
 
     public String getName() {
         return name;
@@ -61,5 +61,13 @@ public class Product {
 
     public String GetCategoryColor(){
         return this.category.getColor();
+    }
+
+    public double getDesconto() {
+        return desconto;
+    }
+
+    public void setDesconto(double desconto) {
+        this.desconto = desconto;
     }
 }

@@ -120,4 +120,10 @@ public class ShoppingList {
 
     }
 
+    public void getDesconto(){
+        for (int i=0;i<productList2.size();i++){
+            System.out.println("Desconto"+productList2.get(i).getDesconto());
+        }
+    }
+
 }
